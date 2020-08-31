@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#wrapper
+{
+	/*border:solid;*/
+	padding: 5px;
+	background-color: linen;
+}
+
+#header
+{
+	height: 120px;
+	background-color: blue;
+	border-radius: 5px;
+}
+#content
+{
+	margin-top: 15px;
+
+}
+#content::after
+{
+	content: " ";
+	display: block;
+	clear: both;
+}
+#left-panel
+{
+	width: 20%;
+	float: left;
+}
+#navbar
+{
+	background-color: pink;
+	border-radius: 5px;
+	height: 165px;
+}
+#news
+{
+	background-color: lightgreen;
+	border-radius: 5px;
+	height: 275px;
+}
+#right-panel
+{
+	border-radius:5px; 
+	width: 40%;
+	float: right;
+	background-color: violet;
+	height: 440px;
+}
+#prabhupada
+{
+	text-align: center;
+	margin-top: 15px;
+}
+#footer
+{
+	width: 100%;
+	float: bottom;
+	background-color: green;
+	height: 90px;
+	border-radius: 5px;
+}
+#chant
+{
+	margin-top: 15px;
+	color: red;
+	text-align: center;
+}
+#mantra
+{
+	color: blue;
+	text-align: center;
+}
+#happy
+{
+	color: brown;
+	text-align: center;
+}
+}
